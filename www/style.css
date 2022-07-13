@@ -1,0 +1,68 @@
+
+html {
+    font-family: 'Nunito', serif;
+    margin:    0 auto;
+    max-width: 900px;
+    background-image: url(/smokey-blue-ribbon-background-invert.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    background: rgba(240,248,255,0.9);
+    padding: 20px;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h2:before {
+    content: "\203A";
+    margin-right: 6px;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+img.mindat-locality {
+    width: 0.6em;
+}
+
+.minsearch {
+    font-size: large;
+    line-height: 1.5;
+}
+
+.minsearch:link {
+    text-decoration: none;
+}
+
+.minsearch:link:hover {
+    text-decoration: underline;
+}
+
+
+.highlighted {
+    background-color: gold;
+}
+
+.home-button {
+    text-align: right;
+    font-weight: bold;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
